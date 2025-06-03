@@ -11,6 +11,7 @@
 ## 🔍 Self Review
 
 ### 📁 1. 파일 구조 및 구성
+
 - [x] 역할별로 디렉토리 분리 (`/css`, `/js`, `/images`)
 - [x] 인라인 스타일, 스크립트 제거 → 외부 파일로 분리 완료
 - [x] 파일/폴더 네이밍 일관성 유지
@@ -18,6 +19,7 @@
 ---
 
 ### 🧱 2. HTML 리뷰
+
 ```html
 <div id="header"></div>
 <div id="main">
@@ -36,6 +38,7 @@
 ---
 
 ### 🎨 3. CSS 리뷰
+
 - [x] 중복 스타일 최소화 및 공통 클래스 추출
 - [x] 반응형 웹 완성 (미디어 쿼리 사용)
 - [ ] 초기값, 공통된 요소 하나의 페이지에서 모두 작성 → reset.css, common.css분리하여 정리 예정
@@ -43,6 +46,7 @@
 ---
 
 ### ⚙️ 4. JavaScript 리뷰
+
 ```javascript
 var $main_visual = $(".main_visual .main_slider");
 var $visualList = $(".main_visual .main_slider .slide_box > div");
@@ -68,7 +72,9 @@ var _visualNum = 0;
 - 
 ---
 
+
 ### 🎯 5. UX/UI 측면
+
 - [x] 인터랙션 요소에 호버 및 포커스 스타일 제공
 - [x] 모바일 환경에서 메뉴가 터치로 작동함
 - [x] 디자인 시각적 계층 구조 명확함
@@ -77,6 +83,7 @@ var _visualNum = 0;
 ---
 
 ## 🛠️ 개선 계획 (To-Do)
+
 - [ ] <h1> 태그 구조 개선 → SEO 및 접근성 향상
 - [ ] JavaScript 함수명 구체화 (handle1() → toggleMenu() 등)
 - [ ] 로딩 애니메이션 추가하여 UX 개선
